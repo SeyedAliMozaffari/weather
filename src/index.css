@@ -34,6 +34,21 @@ body{
 .app.smoke{
 	background-image: url('./assets/smoke.jpg');
 }
+.app.dust{
+	background-image: url('./assets/dust.jpg');
+}
+.app.fog{
+	background-image: url('./assets/fog.jpg');
+}
+.app.sand{
+	background-image: url('./assets/sand.jpg');
+}
+.app.ash{
+	background-image: url('./assets/ash.jpg');
+}
+.app.tornado{
+	background-image: url('./assets/tornado.png');
+}
 main{
 	min-height: 100vh;
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.75));

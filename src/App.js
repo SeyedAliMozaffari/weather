@@ -53,7 +53,31 @@ function App() {
 												(weather.weather[0].main=="Smoke")?
 													'app smoke'
 												: (
-													'app'
+													(weather.weather[0].main=="Dust")?
+														'app dust'
+													: (
+														(weather.weather[0].main=="Fog")?
+															'app fog'
+														: (
+															(weather.weather[0].main=="Sand")?
+																'app sand'
+															: (
+																(weather.weather[0].main=="Ash")?
+																	'app ash'
+																: (
+																	(weather.weather[0].main=="Tornado")?
+																		'app tornado'
+																	: (
+																		(weather.weather[0].main=="Drizzle")?
+																			'app rain'
+																		: (
+																			'app'
+																		)
+																	)
+																)
+															)
+														)
+													)
 												)
 											)
 										)
