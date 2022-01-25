@@ -8,45 +8,58 @@ body{
 	font-family: 'montseratt', sans-serif;
 }
 .app{
+	/* Default background for first enterence and any invalid cities */
 	background-image: url('./assets/weather.jpg');
 	background-size: cover;
 	background-position: bottom;
 	transition: 0.7s ease;
 }
 .app.sunCloud{
+	/* Default background for first enterence and any invalid cities */
 	background-image: url('./assets/sun & cloud.jpg');
 }
 .app.sun{
+	/* background for any clear weather cities */
 	background-image: url('./assets/sun.jpg');
 }
 .app.rain{
+	/* background for any rain weather cities */
 	background-image: url('./assets/rain.jpg');
 }
 .app.snow{
+	/* background for any snow weather cities */
 	background-image: url('./assets/snow.jpg');
 }
 .app.mist{
+	/* background for any mist weather cities */
 	background-image: url('./assets/mist.jpg');
 }
 .app.haze{
+	/* background for any haze weather cities */
 	background-image: url('./assets/haze.jpg');
 }
 .app.smoke{
+	/* background for any smoke weather cities */
 	background-image: url('./assets/smoke.jpg');
 }
 .app.dust{
+	/* background for any dust weather cities */
 	background-image: url('./assets/dust.jpg');
 }
 .app.fog{
+	/* background for any haze fog cities */
 	background-image: url('./assets/fog.jpg');
 }
 .app.sand{
+	/* background for any sand sand cities */
 	background-image: url('./assets/sand.jpg');
 }
 .app.ash{
+	/* background for any ash weather cities */
 	background-image: url('./assets/ash.jpg');
 }
 .app.tornado{
+	/* background for any tornado weather cities */
 	background-image: url('./assets/tornado.png');
 }
 main{
